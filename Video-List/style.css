@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	font-family: 'Karla', sans-serif;
+	}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+body {
+	background-color: #fff;
+	overflow: auto;
+}
+
+#tiles > a {
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	display: inline-block;
+	font-size: 2.2vw;
+	color: #000;
+	font-weight: bolder;
+	transition: .5s;
+	text-decoration: none;
+	cursor: pointer;
+}
+		
+#tiles > a:hover {
+	transform: scale(1.1);
+}
+
+#videos {
+	max-width: 1535px;
+}
+		
+#videos > a {
+	text-align: center;
+	display: inline-block;
+	font-size: 18px;
+	color: #FFFFFF;
+	font-weight: bolder;
+	transition: 1s;
+	text-decoration: none;
+}
+
+
+
+#backBtn {
+	border-radius: 15px;
+	background-color: #00BFFF;
+	border: 2px solid #00BFFF;
+	font-size: 30px;
+	padding: 5px;
+	text-decoration: none;
+	position: fixed;
+	margin-left: 3vw;
+	color: #000;
+	font-weight: bolder;
+	transition: .5s;
+}
+
+#backBtn:hover {
+	background-color: #fff;
+}
+
+
+.img {
+	width: 15vw;
+	height: auto;
+	transition: .5s;
+	box-sizing: content-box;
+	padding: 10%;
+	box-shadow: none;
+	cursor: pointer;
+}
+
+.img:hover {
+	opacity: .5;
+	box-shadow: none;
+}
+
+img {
+	width: 40vw;
+	height: 180px;
+	max-width: 300px;
+	transition: .5s;
+	box-sizing: content-box;
+	font-size: 2.5vw;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img:hover {
+	opacity: .9;
+	cursor: pointer;
+	transform: scale(1.1);
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+figcaption {
+	text-align: center;
+	color: #000;
+	width: 40vw;
+	max-width: 300px;
+}
+
+.lightbox {
+	height: 0;
+  	background-color: transparent;
+  	overflow-x: hidden;
+	max-width: 1535px;
+}
+
+.video {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-left: 10%;
+}
+
+.video iframe, .video object, .video embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 70%;
+	height: 70%;
+	margin-left: 10%;
+}
+
+.closebtn {
+	position: relative;
+ 	font-size: 18px;
+	text-decoration: none;
+	color: #000;
+	transition: .2s;
+}
+
+.closebtn:hover {
+	background-color:#DFDFDF;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: transparent;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #DDD; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #CCCCCC;
+}

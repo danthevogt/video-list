@@ -1,0 +1,1102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<script src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+</head>
+
+<body>
+	
+	<a id="backBtn" href="javascript: window.location.reload();" style="display: none;">&#8592;</a>
+	
+	<nav id="tiles" align="center">
+		<a href="javascript: tiles('1', 'video games')">
+			<figure>
+				<img class="img" src="tile_images/video_games.png" alt="">
+				<figcaption class="one-line">Video Games</figcaption>
+			</figure>
+		</a>
+		<a href="javascript: tiles('2', 'music')">
+			<figure>
+				<img class="img" src="tile_images/music.png" alt="">
+				<figcaption class="one-line">Music</figcaption>
+			</figure>
+		</a>
+		<a href="javascript: tiles('3', 'dating')">
+			<figure>
+				<img class="img" src="tile_images/dating.jpg" alt="">
+				<figcaption class="one-line">Dating</figcaption>
+			</figure>
+		</a>
+		<a href="javascript: tiles('4', 'social media')">
+			<figure>
+				<img class="img" src="tile_images/social_media.jpg" alt="">
+				<figcaption class="one-line">Social Media</figcaption>
+			</figure>
+		</a>
+		<a href="javascript: tiles('5', 'youtube')">
+			<figure>
+				<img class="img" src="tile_images/you_tube.png" alt="">
+				<figcaption class="one-line">YouTube</figcaption>
+			</figure>
+		</a>
+		<a href="javascript: tiles('6', 'technology/smartphones')">
+			<figure>
+				<img class="img" src="tile_images/technology.png" alt="">
+				<figcaption class="one-line">Technology/Smartphones</figcaption>
+			</figure>
+		</a>
+		<a href="javascript: tiles('7', 'sports')">
+			<figure>
+				<img class="img" src="tile_images/sports.png" alt="">
+				<figcaption class="one-line">Sports</figcaption>
+			</figure>
+		</a>
+		<a href="javascript: tiles('8', 'food')">
+			<figure>
+				<img class="img" src="tile_images/food.png" alt="">
+				<figcaption class="one-line">Food</figcaption>
+			</figure>
+		</a>
+		<a href="javascript: tiles('9', 'family/friends')">
+			<figure>
+				<img class="img" src="tile_images/family.png" alt="">
+				<figcaption class="one-line">Family/Friends</figcaption>
+			</figure>
+		</a>
+		<a href="javascript: tiles('10', 'social causes')">
+			<figure>
+				<img class="img" src="tile_images/social_cause.png" alt="">
+				<figcaption class="one-line">Social Causes</figcaption>
+			</figure>
+		</a>
+		<a href="javascript: tiles('11', 'fashion/brands/style')">
+			<figure>
+				<img class="img" src="tile_images/fashion.png" alt="">
+				<figcaption class="one-line">Fashion/Brands/Style</figcaption>
+			</figure>
+		</a>
+		<a href="javascript: tiles('12', 'movies/tv/celebrities')">
+			<figure>
+				<img class="img" src="tile_images/movies.png" alt="">
+				<figcaption class="one-line">Movies/TV/Celebrities</figcaption>
+			</figure>
+		</a>
+		<a href="javascript: tiles('13', 'reading fantasy')">
+			<figure>
+				<img class="img" src="tile_images/reading.png" alt="">
+				<figcaption class="one-line">Reading Fantasy</figcaption>
+			</figure>
+		</a>
+		<a href="javascript: tiles('14 'anime')">
+			<figure>
+				<img class="img" src="tile_images/anime.png" alt="">
+				<figcaption class="one-line">Anime</figcaption>
+			</figure>
+		</a>
+		<a href="javascript: tiles('15 'board/card games')">
+			<figure>
+				<img class="img" src="tile_images/board_games.png" alt="">
+				<figcaption class="one-line">Board/Card Games</figcaption>
+			</figure>
+		</a>
+		<a href="javascript: tiles('17', 'art')">
+			<figure>
+				<img class="img" src="tile_images/art.png" alt="">
+				<figcaption class="one-line">Art</figcaption>
+			</figure>
+		</a>
+		<a href="javascript: tiles('18', 'pets')">
+			<figure>
+				<img class="img" src="tile_images/pets.png" alt="">
+				<figcaption class="one-line">Pets</figcaption>
+			</figure>
+		</a>
+	</nav>
+		
+	<nav id="videos" align="center">
+		
+		<!--Video placement-->
+		<div id="lightbox" class="lightbox">
+			<a href="javascript:void(0); closeNav()" aria-label="Close" class="closebtn">close</a>
+			<div class="video">
+				<iframe id="youtube" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+		<!---->
+		
+	    <!--List of Videos-->	
+		<a class="church"  style="display: none;" href="javascript: youTube('onyWSYcHXtM', '', '')">
+			<figure>
+				<img src="thumbnails/fervent_prayer.JPG" width="100px" alt="">
+				<figcaption>Spanish Service - Pastor Anastacia Simpson</figcaption>
+			</figure>
+		</a>
+				
+		<a class="school"  style="display: none;" href="javascript: youTube('n3KbP2OEbW4', '', '')">
+			<figure>
+				<img src="thumbnails/classroom1.JPG" width="100px" alt="">
+				<figcaption>Sr. Wooly - "¿Puedo ir al baño?"</figcaption>
+			</figure>
+		</a>
+				
+		<a class="home"  style="display: none;" href="javascript: youTube('XOOLCJMXH3I', '', '')">
+			<figure>
+				<img src="thumbnails/home1.JPG" width="100px" alt="">
+				<figcaption>Tour de la Nueva Casa</figcaption>
+			</figure>
+		</a>
+				
+		<a class="work"  style="display: none;" href="javascript: youTube('PRDQlOXcfRo', '', '')">
+			<figure>
+				<img src="thumbnails/work1.JPG" width="100px" alt="">
+				<figcaption>TRABAJANDO EN UNA OFICINA / JIAPSI YAÑEZ</figcaption>
+			</figure>
+		</a>
+			
+		<a class="food"  style="display: none;" href="javascript: youTube('7UUEqUuovv4', '', '')">
+			<figure>
+				<img src="thumbnails/desayuno.PNG" width="100px" alt="">
+				<figcaption>Desayuno</figcaption>
+			</figure>
+		</a>
+		
+		<a class="food"  style="display: none;" href="javascript: youTube('1w6NooZQlS4', '', '')">
+			<figure>
+				<img src="thumbnails/comida.PNG" width="100px" alt="">
+				<figcaption>Comida</figcaption>
+			</figure>
+		</a>
+		
+		<a class="food"  style="display: none;" href="javascript: youTube('3QR9cVhTPRM', '', '')">
+			<figure>
+				<img src="thumbnails/pollo.PNG" width="100px" alt="">
+				<figcaption>Pollo</figcaption>
+			</figure>
+		</a>
+		
+		<a class="food"  style="display: none;" href="javascript: youTube('g54GVhn3_Q4', '', '')">
+			<figure>
+				<img src="thumbnails/pan y leche.PNG" width="100px" alt="">
+				<figcaption>Pan y Leche</figcaption>
+			</figure>
+		</a>
+        
+		<a class="food"  style="display: none;" href="javascript: youTube('7YlvM5w7cNw', '', '')">
+			<figure>
+				<img src="thumbnails/jugo.PNG" width="100px" alt="">
+				<figcaption>Jugo</figcaption>
+			</figure>
+		</a>
+	
+		<a class="food"  style="display: none;" href="javascript: youTube('uyr4UhuOSxE', '', '')">
+			<figure>
+				<img src="thumbnails/carne.PNG" width="100px" alt="">
+				<figcaption>El Carne</figcaption>
+			</figure>
+		</a>
+     	
+        <a class="art"  style="display: none;" href="javascript: youTube('PvUDullvD-k', '', '')">
+			<figure>
+				<img src="thumbnails/drawing tutorial.png" width="100px" alt="">
+				<figcaption Lang="es">Tutorial Básico de Dibujo</figcaption>
+			</figure>
+		</a>
+			       
+      	        <a class="art"  style="display: none;" href="javascript: youTube('_rXpi_ZzIx4', '', '')">
+			<figure>
+				<img src="thumbnails/Oil painting tutorial.PNG" width="100px" alt="">
+				<figcaption Lang="es">Pintura al óleo</figcaption>
+			</figure>
+		</a>
+		
+                     <a class="art"  style="display: none;" href="javascript: youTube('1qvDPi9ZyJA', '', '')">
+			<figure>
+				<img src="thumbnails/Photography.PNG" width="100px" alt="">
+				<figcaption Lang="es">Fotografia basica </figcaption>
+			</figure>
+		</a>
+		         		
+         <a class="art"  style="display: none;" href="javascript: youTube('X7F1azQ-7G8', '', '')">
+			<figure>
+				<img src="thumbnails/Sculpting.PNG" width="100px" alt="">
+				<figcaption Lang="es">Esculpir</figcaption>
+			</figure>
+		</a>
+        
+                 <a class="art"  style="display: none;" href="javascript: youTube('aDcLGRdys8E', '', '')">
+			<figure>
+				<img src="thumbnails/Digital art.PNG" width="100px" alt="">
+				<figcaption Lang="es"> Como convertir dibujos de lápiz y papel en Arte Digital </figcaption>
+			</figure>
+		</a>                            
+                            
+             <a class="music"  style="display: none;" href="javascript: youTube('jaDOE_cYxSQ', '', '')">
+			<figure>
+				<img src="thumbnails/piano.PNG" width="100px" alt="">
+				<figcaption Lang="es">Como Tocar El Piano</figcaption>
+			</figure>
+		</a>
+        
+		       <a class="music"  style="display: none;" href="javascript: youTube('C899VH7QmQc', '', '')">
+			<figure>
+				<img src="thumbnails/music concepts video.PNG" width="100px" alt="">
+				<figcaption Lang="es">Conceptos básicos de la música</figcaption>
+			</figure>
+		</a>
+                                   
+        <a class="music"  style="display: none;" href="javascript: youTube('jhbFe6WuA9Y', '', '')">
+			<figure>
+				<img src="thumbnails/music theory.PNG" width="100px" alt="">
+				<figcaption Lang="es">Teoria musical</figcaption>
+			</figure>
+		</a>
+                                 
+       <a class="music"  style="display: none;" href="javascript: youTube('HRYzfVM793A', '', '')">
+			<figure>
+				<img src="thumbnails/Classical music.PNG" width="100px" alt="">
+				<figcaption Lang="es">Música Clásica</figcaption>
+			</figure>
+		</a>
+        
+    <a class="music"  style="display: none;" href="javascript: youTube('8xvWk9GjHlg', '', '')">
+			<figure>
+				<img src="thumbnails/Band tutorial.PNG" width="100px" alt="">
+				<figcaption Lang="es">Consejos para tu grupo de música.</figcaption>
+			</figure>
+		</a>
+		        	
+     <a class="video games"  style="display: none;" href="javascript: youTube('s81hQDAtvBE', '', '')">
+			<figure>
+				<img src="thumbnails/Video Game 1.PNG" width="100px" alt="">
+				<figcaption Lang="es">Juego de zelda</figcaption>
+			</figure>
+		</a>
+        
+    <a class="video games"  style="display: none;" href="javascript: youTube('cfdE3y_afl4', '', '')">
+			<figure>
+				<img src="thumbnails/Video game 2.PNG" width="100px" alt="">
+				<figcaption>Guía Zelda</figcaption>
+			</figure>
+		</a>
+        
+   <a class="video games"  style="display: none;" href="javascript: youTube('BISyS2Zcs04', '', '')">
+			<figure>
+				<img src="thumbnails/video game 3.PNG" width="100px" alt="">
+				<figcaption Lang="es">Cómo hacer videojuegos </figcaption>
+			</figure>
+		</a>     
+        
+   <a class="video games"  style="display: none;" href="javascript: youTube('RT_ZPU-JHwQ', '', '')">
+			<figure>
+				<img src="thumbnails/Video game 4.PNG" width="100px" alt="">
+				<figcaption Lang="es">Conecte un Joystick a la PC</figcaption>
+			</figure>
+		</a>
+        
+  <a class="video games"  style="display: none;" href="javascript: youTube('t7mToDyRgF0', '', '')">
+			<figure>
+				<img src="thumbnails/Video Game 5.PNG" width="100px" alt="">
+				<figcaption Lang="es">Coleccionar videojuegos</figcaption>
+			</figure>
+		</a>
+        
+        <a class="dating"  style="display: none;" href="javascript: youTube('B3F1YPQSG9E', '', '')">
+			<figure>
+				<img src="thumbnails/dating 2.PNG" width="100px" alt="">
+				<figcaption Lang="es">Cómo Invitar A Salir A Una Mujer Que Ya Conoces </figcaption>
+			</figure>
+		</a>
+        
+        <a class="dating"  style="display: none;" href="javascript: youTube('7wtmLYmRFeM', '', '')">
+			<figure>
+				<img src="thumbnails/dating 1.PNG" width="100px" alt="">
+				<figcaption Lang="es">Coleccionar videojuegos</figcaption>
+			</figure>
+		</a>
+
+        <a class="dating"  style="display: none;" href="javascript: youTube('s2pC1GgIgk4', '', '')">
+			<figure>
+				<img src="thumbnails/dating 3.PNG" width="100px" alt="">
+				<figcaption Lang="es">Como invitar a salir a un hombre por mensaje</figcaption>
+			</figure>
+		</a>
+                  
+        <a class="dating"  style="display: none;" href="javascript: youTube('PawLZYnp-UY', '', '')">
+			<figure>
+				<img src="thumbnails/dating 4.PNG" width="100px" alt="">
+				<figcaption Lang="es">10 Ideas Originales para Citas </figcaption>
+			</figure>
+		</a>
+        
+        <a class="dating"  style="display: none;" href="javascript: youTube('UcPjki9Uf7Q', '', '')">
+			<figure>
+				<img src="thumbnails/dating 5.PNG" width="100px" alt="">
+				<figcaption Lang="es">Como hacer preguntas para conocer a una persona</figcaption>
+			</figure>
+		</a>
+        
+           <a class="social media"  style="display: none;" href="javascript: youTube('mBU6x83sqdY', '', '')">
+			<figure>
+				<img src="thumbnails/social media 1.PNG" width="100px" alt="">
+				<figcaption Lang="es">Curso básico de instagram</figcaption>
+			</figure>
+		</a>
+        
+        
+           <a class="social media"  style="display: none;" href="javascript: youTube('wJAVKfr_3ns', '', '')">
+			<figure>
+				<img src="thumbnails/social media 2.PNG" width="100px" alt="">
+				<figcaption Lang="es">10 Redes Sociales mas usadas </figcaption>
+			</figure>
+		</a>
+        
+        
+           <a class="social media"  style="display: none;" href="javascript: youTube('BwKb4wOSB6Y', '', '')">
+			<figure>
+				<img src="thumbnails/social media 3.PNG" width="100px" alt="">
+				<figcaption Lang="es">Seguridad en Internet</figcaption>
+			</figure>
+		</a>
+        
+        
+           <a class="social media"  style="display: none;" href="javascript: youTube('N9RTliLganE', '', '')">
+			<figure>
+				<img src="thumbnails/social media 4.PNG" width="100px" alt="">
+				<figcaption Lang="es">La Mejor Red Social Para Conseguir Clientes</figcaption>
+			</figure>
+		</a>
+        
+         <a class="social media"  style="display: none;" href="javascript: youTube('U2Psgufz2V0', '', '')">
+			<figure>
+				<img src="thumbnails/social media 5.PNG" width="100px" alt="">
+				<figcaption Lang="es">TOP 10 redes sociales MÁS utilizadas del MUNDO</figcaption>
+			</figure>
+		</a>  
+             
+        <a class="reading fantasy"  style="display: none;" href="javascript: youTube('HZLUwWLvc74', '', '')">
+			<figure>
+				<img src="thumbnails/fantasy 1.PNG" width="100px" alt="">
+				<figcaption Lang="es">Reseña eragon libro</figcaption>
+			</figure>
+		</a>
+        
+        
+           <a class="reading fantasy"  style="display: none;" href="javascript: youTube('RgLyUISQrdE', '', '')">
+			<figure>
+				<img src="thumbnails/fantasy 2.PNG" width="100px" alt="">
+				<figcaption Lang="es">Las Crónicas de Narnia</figcaption>
+			</figure>
+		</a>
+        
+        
+           <a class="reading fantasy"  style="display: none;" href="javascript: youTube('o-JIXDdTrJQ', '', '')">
+			<figure>
+				<img src="thumbnails/fantasy 3.PNG" width="100px" alt="">
+				<figcaption Lang="es">Guía de Lectura de Tolkien </figcaption>
+			</figure>
+		</a>
+                
+           <a class="reading fantasy"  style="display: none;" href="javascript: youTube('ihVwu3gCZY4', '', '')">
+			<figure>
+				<img src="thumbnails/fantasy 4.PNG" width="100px" alt="">
+				<figcaption Lang="es">Escuadrón de Brandon Sanderson Skyward</figcaption>
+			</figure>
+		</a>
+        
+         <a class="reading fantasy"  style="display: none;" href="javascript: youTube('D7DWegS3rxA', '', '')">
+			<figure>
+				<img src="thumbnails/fantasy 5.PNG" width="100px" alt="">
+				<figcaption Lang="es">¿Por qué es importante leer? </figcaption>
+			</figure>
+		</a>  
+        
+        
+         <a class="social causes"  style="display: none;" href="javascript: youTube('YzNem5xvf2E', '', '')">
+			<figure>
+				<img src="thumbnails/social causes 1.PNG" width="100px" alt="">
+				<figcaption Lang="es">Cómo enamorarse del servicio público</figcaption>
+			</figure>
+		</a>  
+                
+          <a class="social causes"  style="display: none;" href="javascript: youTube('rMp-AUIzqe8', '', '')">
+			<figure>
+				<img src="thumbnails/social causes 2.PNG" width="100px" alt="">
+				<figcaption Lang="es">Recaudación de fondos</figcaption>
+			</figure>
+		</a>  
+        
+         <a class="social causes"  style="display: none;" href="javascript: youTube('cOZjvqNDdIw', '', '')">
+			<figure>
+				<img src="thumbnails/social causes 3.PNG" width="100px" alt="">
+				<figcaption Lang="es">Ideas para Recaudar Fondos</figcaption>
+			</figure>
+		</a>  
+      
+         <a class="social causes"  style="display: none;" href="javascript: youTube('MAxvRM3_vrs', '', '')">
+			<figure>
+				<img src="thumbnails/social causes 4.PNG" width="100px" alt="">
+				<figcaption Lang="es">Cómo donar cabello y por qué</figcaption>
+			</figure>
+		</a>  
+      
+        <a class="social causes"  style="display: none;" href="javascript: youTube('MSI10_rWPX0', '', '')">
+			<figure>
+				<img src="thumbnails/social causes 5.PNG" width="100px" alt="">
+				<figcaption Lang="es">¿Por qué los jóvenes debemos ser voluntarios?</figcaption>
+			</figure>
+		</a>  
+      
+       <a class="technology/smartphones"  style="display: none;" href="javascript: youTube('gaqmFRTJN5Y', '', '')">
+			<figure>
+				<img src="thumbnails/tech 1.PNG" width="100px" alt="">
+				<figcaption Lang="es">Se deben tomar fotos con el móvil</figcaption>
+			</figure>
+		</a>  
+      
+        <a class="technology/smartphones"  style="display: none;" href="javascript: youTube('o9CSrFvI0g4', '', '')">
+			<figure>
+				<img src="thumbnails/tech 2.PNG" width="100px" alt="">
+				<figcaption Lang="es">Como hacer fundas para celular fáciles</figcaption>
+			</figure>
+		</a> 
+      
+        <a class="technology/smartphones"  style="display: none;" href="javascript: youTube('DDAAXseU37M', '', '')">
+			<figure>
+				<img src="thumbnails/tech 3.PNG" alt="">
+				<figcaption Lang="es">Tipos de conectores</figcaption>
+			</figure>
+		</a> 
+      
+        <a class="technology/smartphones"  style="display: none;" href="javascript: youTube('0SD5YAeM8Lw', '', '')">
+			<figure>
+				<img src="thumbnails/tech 4.PNG" alt="">
+				<figcaption Lang="es">15 Errores que acortan la vida de tu móvil</figcaption>
+			</figure>
+		</a> 
+      
+        <a class="technology/smartphones"  style="display: none;" href="javascript: youTube('T4348_EQC2Y', '', '')">
+			<figure>
+				<img src="thumbnails/tech 5.PNG" alt="">
+				<figcaption Lang="es">15 Increíbles funciones de teléfono </figcaption>
+			</figure>
+		</a> 
+      
+        <a class="sports/outdoors"  style="display: none;" href="javascript: youTube('y2_NhWwQryw', '', '')">
+			<figure>
+				<img src="thumbnails/sports 1.PNG" alt="">
+				<figcaption Lang="es">¿CUÁNTO SABEs SOBRE DEPORTES?</figcaption>
+			</figure>
+		</a> 
+      
+       <a class="sports/outdoors"  style="display: none;" href="javascript: youTube('S2sJSbZwwq4', '', '')">
+			<figure>
+				<img src="thumbnails/sports 2.PNG" alt="">
+				<figcaption Lang="es">Ejercicios para mejorar la técnica individual</figcaption>
+			</figure>
+		</a> 
+      
+       <a class="sports/outdoors"  style="display: none;" href="javascript: youTube('NaTBiY3G3zc', '', '')">
+			<figure>
+				<img src="thumbnails/sports 3.PNG" alt="">
+				<figcaption Lang="es">Así es el curling</figcaption>
+			</figure>
+		</a> 
+        
+         <a class="sports/outdoors"  style="display: none;" href="javascript: youTube('Y0RriBx8PJ0', '', '')">
+			<figure>
+				<img src="thumbnails/sports 4.PNG" alt="">
+				<figcaption Lang="es">Consejos para el deporte en invierno</figcaption>
+			</figure>
+		</a> 
+        
+         <a class="sports/outdoors"  style="display: none;" href="javascript: youTube('ElKcPRZ7iTc', '', '')">
+			<figure>
+				<img src="thumbnails/sports 5.PNG" alt="">
+				<figcaption Lang="es">Cúal es la mejor hora para hacer deporte?</figcaption>
+			</figure>
+		</a> 
+        
+             
+       <a class="movies/tv/celebrities"  style="display: none;" href="javascript: youTube('lDGxQlprI1U', '', '')">
+			<figure>
+				<img src="thumbnails/movies and tv 1.PNG" alt="">
+				<figcaption Lang="es">Crítica-Review Vengadores EndGame - CON SPOILERS</figcaption>
+			</figure>
+		</a> 
+        
+            <a class="movies/tv/celebrities"  style="display: none;" href="javascript: youTube('akzNIPEBZJE', '', '')">
+			<figure>
+				<img src="thumbnails/movies and tv 2.PNG" alt="">
+				<figcaption Lang="es">Remolque de Disney hacia adelante</figcaption>
+			</figure>
+		</a> 
+        
+           <a class="movies/tv/celebrities"  style="display: none;" href="javascript: youTube('mjZALfyn1WY', '', '')">
+			<figure>
+				<img src="thumbnails/movies and tv 3.PNG" alt="">
+				<figcaption Lang="es">Antena TV GRATIS???</figcaption>
+			</figure>
+		</a> 
+        
+          <a class="movies/tv/celebrities"  style="display: none;" href="javascript: youTube('7rxwEfFMbaY', '', '')">
+			<figure>
+				<img src="thumbnails/movies and tv 4.PNG" alt="">
+				<figcaption Lang="es"> El Rey León </figcaption>
+			</figure>
+		</a> 
+        
+          <a class="movies/tv/celebrities"  style="display: none;" href="javascript: youTube('WeyS8jeVVQg', '', '')">
+			<figure>
+				<img src="thumbnails/movies and tv 5.PNG" alt="">
+				<figcaption Lang="es">CONECTAR TELÉFONO a CUALQUIER TV</figcaption>
+			</figure>
+		</a> 
+        
+       <a class="movies/tv/celebrities"  style="display: none;" href="javascript: youTube('O0gkzrrAqg8', '', '')">
+			<figure>
+				<img src="thumbnails/movies and tv 6.PNG" alt="">
+				<figcaption Lang="es">¿Cómo comprar el Televisor perfecto?</figcaption>
+			</figure>
+		</a> 
+        
+        
+         <a class="youtube"  style="display: none;" href="javascript: youTube('Gh_9tE1EjJY', '', '')">
+			<figure>
+				<img src="thumbnails/youtube 1.PNG" alt="">
+				<figcaption Lang="es">Youtube Premium ¿qué es? </figcaption>
+			</figure>
+		</a> 
+        
+        
+         <a class="youtube"  style="display: none;" href="javascript: youTube('lfhoHfbKIgE', '', '')">
+			<figure>
+				<img src="thumbnails/youtube 2.PNG" alt="">
+				<figcaption Lang="es">10 TRUCOS de YOUTUBE para tu iPHONE o ANDROID</figcaption>
+			</figure>
+		</a> 
+        
+         <a class="youtube"  style="display: none;" href="javascript: youTube('Y9MaNABAQYs', '', '')">
+			<figure>
+				<img src="thumbnails/youtube 3.PNG" alt="">
+				<figcaption Lang="es">Tips para empezar tu canal </figcaption>
+			</figure>
+		</a> 
+        
+        
+         <a class="youtube"  style="display: none;" href="javascript: youTube('C40f4lobbFs', '', '')">
+			<figure>
+				<img src="thumbnails/youtube 4.PNG" alt="">
+				<figcaption Lang="es"> Como GANAR DINERO </figcaption>
+			</figure>
+		</a> 
+        
+        
+         <a class="youtube"  style="display: none;" href="javascript: youTube('rvU9PACnB9E', '', '')">
+			<figure>
+				<img src="thumbnails/youtube 5.PNG" alt="">
+				<figcaption Lang="es">Cómo Empezar En YouTube </figcaption>
+			</figure>
+		</a> 
+        
+         <a class="family/friends"  style="display: none;" href="javascript: youTube('O2qSgB0uNZQ', '', '')">
+			<figure>
+				<img src="thumbnails/family 1.PNG" alt="">
+				<figcaption Lang="es"> La importancia de la familia </figcaption>
+			</figure>
+		</a> 
+        
+          <a class="family/friends"  style="display: none;" href="javascript: youTube('zyZMl-ozvAE', '', '')">
+			<figure>
+				<img src="thumbnails/family 2.PNG" alt="">
+				<figcaption Lang="es"> La importancia de la familia</figcaption>
+			</figure>
+		</a> 
+        
+         <a class="family/friends"  style="display: none;" href="javascript: youTube('70bHqsxkP3g', '', '')">
+			<figure>
+				<img src="thumbnails/family 3.PNG" alt="">
+				<figcaption Lang="es"> LA IMPORTANCIA DE LA FAMILIA </figcaption>
+			</figure>
+		</a> 
+                     
+         <a class="family/friends"  style="display: none;" href="javascript: youTube('zO4Wh_ghzgE', '', '')">
+			<figure>
+				<img src="thumbnails/family 4.PNG" alt="">
+				<figcaption Lang="es"> Cómo Hacer Nuevos Amigos </figcaption>
+			</figure>
+		</a> 
+        
+         <a class="family/friends"  style="display: none;" href="javascript: youTube('EkvluKDYUh0', '', '')">
+			<figure>
+				<img src="thumbnails/family 5.PNG" alt="">
+				<figcaption Lang="es"> COMO SER MÁS SOCIABLE EN 3 PASOS</figcaption>
+			</figure>
+		</a> 
+        
+        
+         <a class="fashion/brands/style"  style="display: none;" href="javascript: youTube('GtvmEx-P4dg', '', '')">
+			<figure>
+				<img src="thumbnails/fashion 1.PNG" alt="">
+				<figcaption Lang="es">Como Vestir Bien Adolescentes</figcaption>
+			</figure>
+		</a> 
+        
+         <a class="fashion/brands/style"  style="display: none;" href="javascript: youTube('9KpsBQk_vZI', '', '')">
+			<figure>
+				<img src="thumbnails/fashion 2.PNG" alt="">
+				<figcaption Lang="es">Outfits con Marca de Ropa Cristiana</figcaption>
+			</figure>
+		</a>
+        
+        
+         <a class="fashion/brands/style"  style="display: none;" href="javascript: youTube('O1FOrHEtAsI', '', '')">
+			<figure>
+				<img src="thumbnails/fashion 3.PNG" alt="">
+				<figcaption Lang="es">BOTAS VAQUERAS: ¿cuáles usar?</figcaption>
+			</figure>
+		</a>
+        
+         <a class="fashion/brands/style"  style="display: none;" href="javascript: youTube('DHr9EJUl1Zw', '', '')">
+			<figure>
+				<img src="thumbnails/fashion 4.PNG" alt="">
+				<figcaption Lang="es">Carteras de marcas Famosas Europeas</figcaption>
+			</figure>
+		</a>
+        
+         <a class="fashion/brands/style"  style="display: none;" href="javascript: youTube('GOiSGWzg4l4', '', '')">
+			<figure>
+				<img src="thumbnails/fashion 5.PNG" alt="">
+				<figcaption Lang="es">¿Cómo hacer ilustraciones de moda?</figcaption>
+			</figure>
+		</a>
+        
+         <a class="sports/outdoors"  style="display: none;" href="javascript: youTube('bdZEJGz0SO4', '', '')">
+			<figure>
+				<img src="thumbnails/outdoors 1.PNG" alt="">
+				<figcaption Lang="es">Equipo De Escalada En Roca Para Principiantes</figcaption>
+			</figure>
+		</a>
+        
+           <a class="sports/outdoors"  style="display: none;" href="javascript: youTube('XlWBhFuaXvA', '', '')">
+			<figure>
+				<img src="thumbnails/outdoors 2.PNG" alt="">
+				<figcaption Lang="es">Clase de Escalada en Roca</figcaption>
+			</figure>
+		</a>
+        
+          <a class="sports/outdoors"  style="display: none;" href="javascript: youTube('WsyYL53D2jw', '', '')">
+			<figure>
+				<img src="thumbnails/outdoors 3.PNG" alt="">
+				<figcaption Lang="es">Montañismo</figcaption>
+			</figure>
+		</a>
+        
+          <a class="sports/outdoors"  style="display: none;" href="javascript: youTube('kNtFkWbRuWU', '', '')">
+			<figure>
+				<img src="thumbnails/outdoors 4.PNG" alt="">
+				<figcaption Lang="es">En las montañas</figcaption>
+			</figure>
+		</a>
+        
+          <a class="sports/outdoors"  style="display: none;" href="javascript: youTube('rf67utZvFVA', '', '')">
+			<figure>
+				<img src="thumbnails/outdoors 5.PNG" alt="">
+				<figcaption Lang="es">Cómo disfrutar de tu mascota al aire libre</figcaption>
+			</figure>
+		</a>
+        
+           <a class="pets"  style="display: none;" href="javascript: youTube('gLJd4nNt3LA', '', '')">
+			<figure>
+				<img src="thumbnails/pets 1.PNG" alt="">
+				<figcaption Lang="es">Hurones como mascotas</figcaption>
+			</figure>
+		</a>
+        
+          <a class="pets"  style="display: none;" href="javascript: youTube('6fgHO-dbAjM', '', '')">
+			<figure>
+				<img src="thumbnails/pets 2.PNG" alt="">
+				<figcaption Lang="es">Como cuidar gatitos recién nacidos</figcaption>
+			</figure>
+		</a>
+        
+          <a class="pets"  style="display: none;" href="javascript: youTube('AOnPSzyyHvc', '', '')">
+			<figure>
+				<img src="thumbnails/pets 3.PNG" alt="">
+				<figcaption Lang="es">10 Extraños amigos animales</figcaption>
+			</figure>
+		</a>
+        
+        <a class="pets"  style="display: none;" href="javascript: youTube('z1cz4c36w_o', '', '')">
+			<figure>
+				<img src="thumbnails/perro.PNG" width="100px" alt="">
+				<figcaption>El Perro</figcaption>
+			</figure>
+		</a>
+		
+	<a class="pets"  style="display: none;" href="javascript: youTube('ootB0XRHdws', '', '')">
+			<figure>
+				<img src="thumbnails/pets 5.PNG" width="100px" alt="">
+				<figcaption>Consejos hípica</figcaption>
+			</figure>
+		</a>
+        
+        <a class="anime"  style="display: none;" href="javascript: youTube('hVdJNoGjUhc', '', '')">
+			<figure>
+				<img src="thumbnails/anime 1.PNG" width="100px" alt="">
+				<figcaption>TOP 10 Pokémon Más Difíciles De Capturar </figcaption>
+			</figure>
+		</a>
+        
+           <a class="anime"  style="display: none;" href="javascript: youTube('F7mcDyBXJOo', '', '')">
+			<figure>
+				<img src="thumbnails/anime 2.PNG" width="100px" alt="">
+				<figcaption> CAPTURANDO POKEMON! </figcaption>
+			</figure>
+		</a>
+        
+           <a class="anime"  style="display: none;" href="javascript: youTube('yCZ92HA6mVg', '', '')">
+			<figure>
+				<img src="thumbnails/anime 3.PNG" width="100px" alt="">
+				<figcaption> Dibujando anime ojos</figcaption>
+			</figure>
+		</a>
+        
+           <a class="anime"  style="display: none;" href="javascript: youTube('6lEp5xJ4B4A', '', '')">
+			<figure>
+				<img src="thumbnails/anime 4.PNG" width="100px" alt="">
+				<figcaption>Como dibujar rostro estilo manga </figcaption>
+			</figure>
+		</a>
+        
+           <a class="anime"  style="display: none;" href="javascript: youTube('9ys3ueEx8ew', '', '')">
+			<figure>
+				<img src="thumbnails/anime 5.PNG" width="100px" alt="">
+				<figcaption>Como dibujar pelo</figcaption>
+			</figure>
+		</a>
+        
+               <a class="board/card games"  style="display: none;" href="javascript: youTube('86riCSC1oeY', '', '')">
+			<figure>
+				<img src="thumbnails/games 1.PNG" width="100px" alt="">
+				<figcaption>Los 10 mejores juegos de mesa</figcaption>
+			</figure>
+		</a>
+        
+                  <a class="board/card games"  style="display: none;" href="javascript: youTube('_mTom8Gva4s', '', '')">
+			<figure>
+				<img src="thumbnails/games 2.PNG" width="100px" alt="">
+				<figcaption>JUEGO de MESA inspirado en VENGADORES </figcaption>
+			</figure>
+		</a>
+        
+                  <a class="board/card games"  style="display: none;" href="javascript: youTube('xWZYqM5oLfQ', '', '')">
+			<figure>
+				<img src="thumbnails/games 3.PNG" width="100px" alt="">
+				<figcaption>Como jugar cartas Pokémon </figcaption>
+			</figure>
+		</a>
+        
+                  <a class="board/card games"  style="display: none;" href="javascript: youTube('oaHNnCpZtzE', '', '')">
+			<figure>
+				<img src="thumbnails/games 4.PNG" width="100px" alt="">
+				<figcaption>Mejores juegos de cartas online </figcaption>
+			</figure>
+		</a>
+        
+                  <a class="board/card games"  style="display: none;" href="javascript: youTube('DQzOvL87vss', '', '')">
+			<figure>
+				<img src="thumbnails/games 5.PNG" width="100px" alt="">
+				<figcaption>Cómo se juega</figcaption>
+			</figure>
+		</a>
+        
+        
+	</nav>
+	<!---->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!--This is for students who forgot to set a goal-->
+	<div style="display: none" id="chooseGoal">
+			<h2 align="center">Choose your goal.</h2>
+			<form>
+
+				<nav>
+					<a class="collapsible">Video Games</a>
+					<div class="content">
+						<input type="radio" value="Be able to discuss video games with my friend at school." name="interest" onChange="yourPick()">Be able to discuss video games with my friend at school.<br>
+						<input type="radio" value="Be able to play video games in Spanish." name="interest" onChange="yourPick()">Be able to play video games in Spanish.<br>
+						<input type="radio" value="Be able to navigate a video game in Spanish." name="interest" onChange="yourPick()">Be able to navigate a video game in Spanish.
+					</div>
+				</nav>
+
+				<nav>
+					<a class="collapsible">Music</a>
+					<div class="content">
+						<input type="radio" value="Be able to discuss video games with my friend at school." name="interest" onChange="yourPick()">Be able to discuss video games with my friend at school.<br>
+						<input type="radio" value="Be able to play video games in Spanish." name="interest" onChange="yourPick()">Be able to play video games in Spanish.<br>
+						<input type="radio" value="Be able to navigate a video game in Spanish." name="interest" onChange="yourPick()">Be able to navigate a video game in Spanish.
+					</div>
+				</nav>
+
+				<nav>
+					<a class="collapsible">Dating</a>
+					<div class="content">
+						<input type="radio" value="Be able to discuss video games with my friend at school." name="interest" onChange="yourPick()">Be able to discuss video games with my friend at school.<br>
+						<input type="radio" value="Be able to play video games in Spanish." name="interest" onChange="yourPick()">Be able to play video games in Spanish.<br>
+						<input type="radio" value="Be able to navigate a video game in Spanish." name="interest" onChange="yourPick()">Be able to navigate a video game in Spanish.
+					</div>
+				</nav>
+
+				<nav>
+					<a class="collapsible">Social Media</a>
+					<div class="content">
+						<input type="radio" value="Be able to discuss video games with my friend at school." name="interest" onChange="yourPick()">Be able to discuss video games with my friend at school.<br>
+						<input type="radio" value="Be able to play video games in Spanish." name="interest" onChange="yourPick()">Be able to play video games in Spanish.<br>
+						<input type="radio" value="Be able to navigate a video game in Spanish." name="interest" onChange="yourPick()">Be able to navigate a video game in Spanish.
+					</div>
+				</nav>
+
+				<nav>
+				<a class="collapsible">YouTube</a>
+				<div class="content">
+					<input type="radio" value="Be able to discuss video games with my friend at school." name="interest" onChange="yourPick()">Be able to discuss video games with my friend at school.<br>
+					<input type="radio" value="Be able to play video games in Spanish." name="interest" onChange="yourPick()">Be able to play video games in Spanish.<br>
+					<input type="radio" value="Be able to navigate a video game in Spanish." name="interest" onChange="yourPick()">Be able to navigate a video game in Spanish.
+				</div>
+				</nav>
+
+				<nav>
+					<a class="collapsible">Technology/Smartphones</a>
+					<div class="content">
+						<input type="radio" value="Be able to discuss video games with my friend at school." name="interest" onChange="yourPick()">Be able to discuss video games with my friend at school.<br>
+						<input type="radio" value="Be able to play video games in Spanish." name="interest" onChange="yourPick()">Be able to play video games in Spanish.<br>
+						<input type="radio" value="Be able to navigate a video game in Spanish." name="interest" onChange="yourPick()">Be able to navigate a video game in Spanish.
+					</div>
+				</nav>
+
+				<nav>
+					<a class="collapsible">Sports/Outdoors</a>
+					<div class="content">
+						<input type="radio" value="Be able to discuss video games with my friend at school." name="interest" onChange="yourPick()">Be able to discuss video games with my friend at school.<br>
+						<input type="radio" value="Be able to play video games in Spanish." name="interest" onChange="yourPick()">Be able to play video games in Spanish.<br>
+						<input type="radio" value="Be able to navigate a video game in Spanish." name="interest" onChange="yourPick()">Be able to navigate a video game in Spanish.
+					</div>
+				</nav>
+
+				<nav>
+					<a class="collapsible">Food</a>
+					<div class="content">
+						<input type="radio" value="Be able to discuss video games with my friend at school." name="interest" onChange="yourPick()">Be able to discuss video games with my friend at school.<br>
+						<input type="radio" value="Be able to play video games in Spanish." name="interest" onChange="yourPick()">Be able to play video games in Spanish.<br>
+						<input type="radio" value="Be able to navigate a video game in Spanish." name="interest" onChange="yourPick()">Be able to navigate a video game in Spanish.
+					</div>
+				</nav>
+
+				<nav>
+					<a class="collapsible">Family/Friends</a>
+					<div class="content">
+						<input type="radio" value="Be able to discuss video games with my friend at school." name="interest" onChange="yourPick()">Be able to discuss video games with my friend at school.<br>
+						<input type="radio" value="Be able to play video games in Spanish." name="interest" onChange="yourPick()">Be able to play video games in Spanish.<br>
+						<input type="radio" value="Be able to navigate a video game in Spanish." name="interest" onChange="yourPick()">Be able to navigate a video game in Spanish.
+					</div>
+				</nav>
+
+				<nav>
+					<a class="collapsible">Social Causes</a>
+					<div class="content">
+						<input type="radio" value="Be able to discuss video games with my friend at school." name="interest" onChange="yourPick()">Be able to discuss video games with my friend at school.<br>
+						<input type="radio" value="Be able to play video games in Spanish." name="interest" onChange="yourPick()">Be able to play video games in Spanish.<br>
+						<input type="radio" value="Be able to navigate a video game in Spanish." name="interest" onChange="yourPick()">Be able to navigate a video game in Spanish.
+					</div>
+				</nav>
+
+				<nav>
+					<a class="collapsible">Fashion/Brands/Style</a>
+					<div class="content">
+						<input type="radio" value="Be able to discuss video games with my friend at school." name="interest" onChange="yourPick()">Be able to discuss video games with my friend at school.<br>
+						<input type="radio" value="Be able to play video games in Spanish." name="interest" onChange="yourPick()">Be able to play video games in Spanish.<br>
+						<input type="radio" value="Be able to navigate a video game in Spanish." name="interest" onChange="yourPick()">Be able to navigate a video game in Spanish.
+					</div>
+				</nav>
+
+				<nav>
+					<a class="collapsible">Movies/TV/Celebrities</a>
+					<div class="content">
+						<input type="radio" value="Be able to discuss video games with my friend at school." name="interest" onChange="yourPick()">Be able to discuss video games with my friend at school.<br>
+						<input type="radio" value="Be able to play video games in Spanish." name="interest" onChange="yourPick()">Be able to play video games in Spanish.<br>
+						<input type="radio" value="Be able to navigate a video game in Spanish." name="interest" onChange="yourPick()">Be able to navigate a video game in Spanish.
+					</div>
+				</nav>
+
+				<nav>
+					<a class="collapsible">Reading Fantasy</a>
+					<div class="content">
+						<input type="radio" value="Be able to discuss video games with my friend at school." name="interest" onChange="yourPick()">Be able to discuss video games with my friend at school.<br>
+						<input type="radio" value="Be able to play video games in Spanish." name="interest" onChange="yourPick()">Be able to play video games in Spanish.<br>
+						<input type="radio" value="Be able to navigate a video game in Spanish." name="interest" onChange="yourPick()">Be able to navigate a video game in Spanish.
+					</div>
+				</nav>
+
+				<nav>
+					<a class="collapsible">Anime</a>
+					<div class="content">
+						<input type="radio" value="Be able to discuss video games with my friend at school." name="interest" onChange="yourPick()">Be able to discuss video games with my friend at school.<br>
+						<input type="radio" value="Be able to play video games in Spanish." name="interest" onChange="yourPick()">Be able to play video games in Spanish.<br>
+						<input type="radio" value="Be able to navigate a video game in Spanish." name="interest" onChange="yourPick()">Be able to navigate a video game in Spanish.
+					</div>
+				</nav>
+
+				<nav>
+					<a class="collapsible">Board/Card Games</a>
+					<div class="content">
+						<input type="radio" value="Be able to discuss video games with my friend at school." name="interest" onChange="yourPick()">Be able to discuss video games with my friend at school.<br>
+						<input type="radio" value="Be able to play video games in Spanish." name="interest" onChange="yourPick()">Be able to play video games in Spanish.<br>
+						<input type="radio" value="Be able to navigate a video game in Spanish." name="interest" onChange="yourPick()">Be able to navigate a video game in Spanish.
+					</div>
+				</nav>
+
+				<nav>
+					<a class="collapsible">Art</a>
+					<div class="content">
+						<input type="radio" value="Be able to discuss video games with my friend at school." name="interest" onChange="yourPick()">Be able to discuss video games with my friend at school.<br>
+						<input type="radio" value="Be able to play video games in Spanish." name="interest" onChange="yourPick()">Be able to play video games in Spanish.<br>
+						<input type="radio" value="Be able to navigate a video game in Spanish." name="interest" onChange="yourPick()">Be able to navigate a video game in Spanish.
+					</div>
+				</nav>
+
+				<nav>
+					<a class="collapsible">Pets</a>
+					<div class="content">
+						<input type="radio" value="Be able to discuss video games with my friend at school." name="interest" onChange="yourPick()">Be able to discuss video games with my friend at school.<br>
+						<input type="radio" value="Be able to play video games in Spanish." name="interest" onChange="yourPick()">Be able to play video games in Spanish.<br>
+						<input type="radio" value="Be able to navigate a video game in Spanish." name="interest" onChange="yourPick()">Be able to navigate a video game in Spanish.
+					</div>
+				</nav>
+
+			</form>
+		<h2 id="interest"></h2>
+		<h2>You chose: <span id="pick"></span></h2>
+			<h2 id="hhh"></h2>
+		
+		<button onClick="window.location.reload();">Confirm</button>
+
+
+
+			<style>
+		.collapsible {
+			background-color: #777;
+			color: white;
+			cursor: pointer;
+			padding: 5px;
+			width: 100%;
+			border: none;
+			text-align: left;
+			outline: none;
+			font-size: 30px;
+			display: flex;
+			text-align: center;
+			padding-left: 5%;
+			transition: .5s;
+			align-content: center;
+		}
+
+		.active, .collapsible:hover {
+		  background-color: #555;
+			width: 90%;
+		}
+		
+		.active {
+			border-radius: 30px 30px 0px 0px;;
+		}
+		
+		.collapsible:after {
+		  content: '\002B';
+		  color: white;
+		  font-weight: bold;
+		  margin-left: 5px;
+			float: left;
+		}
+
+		.active:after {
+		  content: "\2212";
+			float: right;
+		}
+
+		.content {
+			padding: 0 8%;
+			max-height: 0;
+			overflow: hidden;
+			transition: max-height 0.2s ease-out;
+			background-color: #f1f1f1;
+			font-size: 20px;
+			border-radius: 0px 0px 30px 30px;
+			width: 90%;
+			margin-bottom: 5px;
+		}
+		
+	</style>
+	
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var content = this.nextElementSibling;
+			if (content.style.maxHeight){
+			  content.style.maxHeight = null;
+			} else {
+			  content.style.maxHeight = content.scrollHeight + "px";
+			} 
+		  });
+		}
+
+
+				function yourPick() {
+					var arrInputs = document.getElementsByTagName("INPUT");
+					var value = "";
+					var x = "";
+
+					for ( var i = 0; i < arrInputs.length; i++) {
+						if (arrInputs[i].checked) {
+							value = arrInputs[i].value;
+							document.getElementById("pick").innerHTML = value;
+							x = arrInputs[i].parentNode.parentNode.firstChild.nextElementSibling.innerHTML;
+						}				
+					}
+
+					localStorage.setItem("interest", x);
+					localStorage.setItem("goal", value);
+					
+				}
+		</script>
+		
+		
+	</div>
+	
+	
+	
+</body>
+</html>
